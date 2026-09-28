@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Auxilio PY",
+    "slug": "auxilio-py",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "py.auxilio.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "py.auxilio.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Auxilio PY usa sua localização para encontrar prestadores próximos em emergências rodoviárias."
+      },
+      "buildNumber": "1"
+    },
+    "plugins": [
+      "expo-location"
+    ],
+    "scheme": "auxiliopy"
+  }
+}
